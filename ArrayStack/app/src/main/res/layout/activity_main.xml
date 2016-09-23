@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#002B2A"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.syedinkisarahmed.arraystack.MainActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:hint="write only number"
+    android:background="#FFE4BA"
+    android:textColor="#FF00B4"
+    android:textSize="25sp"
+    android:id="@+id/value"/>
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add"
+        android:onClick="add"
+        android:background="#000000"
+        android:textColor="#FFBC1C"
+        android:textSize="25sp"/>
+    <Button
+        android:background="#000000"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete"
+        android:onClick="dlt"
+        android:textColor="#FFBC1C"
+        android:textSize="25sp"/>
+    <Button
+        android:padding="8dp"
+        android:background="#000000"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFBC1C"
+        android:text="Display"
+        android:onClick="display"
+        android:textSize="25sp"/>
+    <Button
+        android:padding="8dp"
+        android:background="#000000"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFBC1C"
+        android:text="Reset"
+        android:onClick="reset"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="50dp"
+        android:textColor="#FFBC1C"
+        android:background="#473F32"
+        android:textSize="25dp"
+        android:id="@+id/display"
+        />
+
+</LinearLayout>
